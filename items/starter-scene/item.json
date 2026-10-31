@@ -1,0 +1,8 @@
+{
+  "name": "Starter scene",
+  "author": "TechDaddyKB",
+  "description": "Cuebot's chat box (chat from Twitch, Kick, Rumble and YouTube with badges and emotes) and alert box (a design for each alert type) on a 1920 × 1080 canvas. A starting point to restyle.",
+  "kind": "overlay",
+  "license": "MIT",
+  "tags": ["starter", "chat", "alerts"]
+}

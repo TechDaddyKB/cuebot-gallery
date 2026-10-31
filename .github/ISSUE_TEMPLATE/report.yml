@@ -1,0 +1,29 @@
+name: Report an item
+description: Copyright, a broken item, or something harmful
+labels: [report]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Item
+      description: The item's folder name (for example neon-starter) or its name in Cuebot
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - It contains my work (copyright)
+        - It does not work
+        - It is harmful or abusive
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: For copyright, say what is yours and where it was published first.
+    validations:
+      required: true

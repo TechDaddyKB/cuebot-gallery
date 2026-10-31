@@ -1,0 +1,24 @@
+{
+  "format": "cuebot-gallery",
+  "version": 1,
+  "items": [
+    {
+      "id": "starter-scene",
+      "name": "Starter scene",
+      "author": "TechDaddyKB",
+      "description": "Cuebot's chat box (chat from Twitch, Kick, Rumble and YouTube with badges and emotes) and alert box (a design for each alert type) on a 1920 × 1080 canvas. A starting point to restyle.",
+      "kind": "overlay",
+      "license": "MIT",
+      "tags": [
+        "starter",
+        "chat",
+        "alerts"
+      ],
+      "originalCode": false,
+      "package": "items/starter-scene/package.cuebot-overlay",
+      "preview": "items/starter-scene/preview.png",
+      "size": 14296,
+      "sha256": "c622c5d017089b8649df9472b7d525414f035638031beb95d4bfb9cf30713fa7"
+    }
+  ]
+}
